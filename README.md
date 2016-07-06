@@ -9,7 +9,7 @@
 Fork 这个仓库，然后在命令行里运行(Windows环境请使用Git bash)：
 
 ```sh
-$ curl -fsSLO https://git.oschina.net/home5u/cs.sh/raw/master/cs.sh
+$ curl -fsSLO https://raw.githubusercontent.com/joy2fun/cs.sh/master/cs.sh
 $ chmod +x cs.sh
 ```
 
@@ -17,9 +17,9 @@ $ chmod +x cs.sh
 
 ```sh
 # 你刚刚fork的仓库的ssh地址
-csgit="git@git.oschina.net:xxx/cs.sh.git"
+csgit="git@github.com:xxx/cs.sh.git"
 # 网页查看代码的网址前缀
-csprefix="https://git.oschina.net/xxx/cs.sh/blob/master"
+csprefix="https://github.com/xxx/cs.sh/blob/master"
 # 仓库克隆到本地的路径，一般不用改
 cspath=~/.cs.sh
 ```
