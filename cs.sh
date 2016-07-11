@@ -28,7 +28,7 @@ rmbin=$(which rm)
 }
 
 git_clean(){
-    $gitbin clean -n -d -f $gitquiet $gitquiet >/dev/null 2>&1
+    $gitbin clean -d -f $gitquiet $gitquiet >/dev/null 2>&1
 }
 
 git_update(){
